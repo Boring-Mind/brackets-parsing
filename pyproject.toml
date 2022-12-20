@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "brackets-parsing"
+version = "0.1.0"
+description = ""
+authors = ["Daniil Bibik"]
+license = "GNU-GPLv3"
+readme = "README.md"
+packages = [{include = "brackets_parsing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
